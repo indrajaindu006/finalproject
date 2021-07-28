@@ -1,0 +1,18 @@
+<h3> View todo Details</h3>
+<div>
+  <div>
+    <label> <b> User Id: </b></label> {{todo.userId}}
+  </div>
+  <div>
+    <label> <b> Title: </b></label> {{todo.title}}
+  </div>
+  <div>
+    <label> <b> completed: </b></label> {{todo.completed}}
+  </div>
+
+
+    <form (ngSubmit) = "onSubmit()">
+    <input type="button" value="Go back" onclick="history.back()">
+  </form>
+
+</div>
